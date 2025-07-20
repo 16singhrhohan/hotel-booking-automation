@@ -3,11 +3,7 @@ pipeline {
 
     tools {
     'jenkins.plugins.shiningpanda.tools.PythonInstallation' 'Python3'
-<<<<<<< HEAD
-}
-=======
     }
->>>>>>> 71ddc8f (Fix Jenkinsfile tool block)
 
     stages {
         stage('Checkout Code') {
