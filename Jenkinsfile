@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        python 'Python3' // Must match your Jenkins Python tool name
-    }
+    'jenkins.plugins.shiningpanda.tools.PythonInstallation' 'Python3'
+}
 
     stages {
         stage('Checkout Code') {
